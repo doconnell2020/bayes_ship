@@ -22,10 +22,10 @@ class Search():
             sys.exit(1)
 
         self.area_actual = 0
-        selfself.sailor_actual = [0,0] # As "local" coord within search area
+        self.sailor_actual = [0,0] # As "local" coord within search area
         
         self.sa1 = self.img[SA1_CORNERS[1] : SA1_CORNERS[3],
-                            SA1_CORNERS[0] : SA1_CORNERS[2]]]
+                            SA1_CORNERS[0] : SA1_CORNERS[2]]
 
         self.sa2 = self.img[SA2_CORNERS[1] : SA2_CORNERS[3],
                             SA2_CORNERS[0] : SA2_CORNERS[2]]
@@ -40,4 +40,3 @@ class Search():
         self.sep1 = 0
         self.sep2 = 0
         self.sep3 = 0 
-        
