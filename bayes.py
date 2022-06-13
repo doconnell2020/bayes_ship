@@ -165,7 +165,7 @@ class Search:
         random.shuffle(coords)
         coords = coords[: int((len(coords) * effectiveness_prob))]
         loc_actual = (self.sailor_actual[0], self.sailor_actual[1])
-        if area_num == self.area_actual[0] and loc_actual in coords:
+        if area_num == self.area_actual and loc_actual in coords:
             return "Found in Area {}.".format(area_num), coords
         else:
             return "Not Found", coords
