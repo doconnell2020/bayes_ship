@@ -181,7 +181,7 @@ class Search:
         self.p2 = self.p2 * (1 - self.sep2) / denom
         self.p3 = self.p3 * (1 - self.sep3) / denom
 
-    def draw_menu(search_num):
+def draw_menu(search_num):
         """Print menu of choices for conducting area searches."""
         print("\nSearch {}".format(search_num))
         print(
